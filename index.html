@@ -60,7 +60,7 @@
   <!---------------------- main-layout-starts ---------------------->
   <main>
     <!---------------------- hero-section-starts ---------------------->
-    <section class="hero pt-[120px]">
+    <section class="hero pt-8 sm:pt-[120px]">
       <div class="container-x">
         <div class="hero-section flex flex-col-reverse sm:flex-row items-end gap-7 justify-between">
           <!-- column-starts -->
@@ -87,7 +87,7 @@
     <!---------------------- hero-section-end ---------------------->
 
     <!---------------------- plant-section-starts ---------------------->
-    <section class="plant pt-[120px]">
+    <section class="plant pt-[65px] sm:pt-[120px]">
       <div class="container-x">
         <div class="plant-section">
           <div class="flex justify-center items-center mb-12">
@@ -98,7 +98,7 @@
             </div>
           </div>
 
-          <div class="grid grid-cols-4 gap-5">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
             <!-- column-starts -->
             <div>
               <div class="wrapper">
@@ -235,14 +235,14 @@
     <!---------------------- plant-section-end ---------------------->
 
     <!---------------------- flower-section-starts ---------------------->
-    <section class="flower pt-40">
+    <section class="flower pt-20 sm:pt-40">
       <div class="container-x">
-        <div class="grid grid-cols-2 gap-14 items-center">
+        <div class="grid sm:grid-cols-2 gap-5 sm:gap-14 items-center">
           <!-- column-starts -->
           <div>
             <div class="flower-img relative">
               <img src="./assets/images/flower-store.png" alt="">
-              <div class="absolute -top-24 -right-20 size-[280px]">
+              <div class="sm:absolute -top-24 -right-20 size-[280px] hidden sm:block ">
                 <img src="./assets/images/trusted-badge.png" alt="flower-badge" class="w-full h-full">
               </div>
             </div>
@@ -287,7 +287,7 @@
             </div>
           </div>
 
-          <div class="grid grid-cols-3 gap-5">
+          <div class="grid sm:grid-cols-3 gap-5">
             <!-- column-starts -->
             <div>
               <div
@@ -303,7 +303,7 @@
                 </div>
               </div>
               <div
-                class="relative rounded-lg overflow-hidden aspect-[366/206] w-full mb-5 flex items-center justify-center z-[1]">
+                class="relative rounded-lg overflow-hidden aspect-[366/206] w-full flex items-center justify-center z-[1]">
 
                 <div class="absolute w-full h-full -z-[2]">
                   <img src="./assets/images/deal-bloom.png" alt="" class="w-full h-full">
@@ -318,7 +318,7 @@
             <!-- column-end -->
 
             <!-- column-starts -->
-            <div class="col-span-2">
+            <div class="sm:col-span-2">
               <div>
                 <div
                   class="relative rounded-lg overflow-hidden aspect-[753/430] w-full flex items-center justify-center z-[1]">
@@ -329,7 +329,7 @@
                   <div class="absolute w-full h-full bg-[#00000066] -z-[1]"></div>
                   <div class="text-center">
                     <h3 class="text-white font-semibold mb-4">30% Off | Ana Plant</h3>
-                    <a href="#" class="text-[28px] text-white font-semibold underline">Shop Now</a>
+                    <a href="#" class="sm:text-[28px] text-white font-semibold underline">Shop Now</a>
                   </div>
                 </div>
               </div>
@@ -344,16 +344,16 @@
     <!---------------------- join-section-starts ---------------------->
     <section class="join relative z-[1]">
       <div class="absolute w-full h-full -z-[1]">
-        <img src="./assets/images/news-letter-bg.png" alt="join-img" class="h-full w-full">
+        <img src="./assets/images/news-letter-bg.png" alt="join-img" class="h-full w-full object-cover">
       </div>
 
       <div class="container-x">
-        <div class="join-section flex justify-center items-center py-[200px] w-full">
+        <div class="join-section flex justify-center items-center py-[100px] sm:py-[200px] w-full">
           <div class="join-content text-center w-full flex flex-col items-center gap-6">
             <h2 class="text-white">Join the colorful Bunch</h2>
 
             <div class="join-form max-w-[830px] w-full bg-white flex justify-between items-center">
-              <input type="text" class="w-full px-5 flex-1" placeholder="Write Massage">
+              <input type="text" class="w-full px-3 sm:px-5 flex-1" placeholder="Write Massage">
               <button class="btn-primary px-12">Subscribe</button>
             </div>
           </div>
@@ -371,7 +371,7 @@
   <footer class="footer py-12">
     <div class="container-x">
       <div class="footer-section">
-        <div class="grid grid-cols-3 gap-[110px]">
+        <div class="grid sm:grid-cols-3 gap-[30px] sm:gap-[110px]">
           <!-- column-start -->
           <div>
             <div class="max-w-[360px] w-full">
@@ -384,7 +384,7 @@
           <!-- column-end -->
           <!-- column-start -->
           <div>
-            <div class="grid grid-cols-2 items-center gap-8">
+            <div class="grid sm:grid-cols-2 items-center gap-8">
               <div>
                 <ul class="flex flex-col gap-6">
                   <li>
